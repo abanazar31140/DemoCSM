@@ -26,7 +26,7 @@
         <sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope>
         <sys_update_name>sys_pd_process_definition_ccad58f2c3a31210b66e7addd40131cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-09 15:41:03</sys_updated_on>
+        <sys_updated_on>2025-02-09 15:59:35</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=ccad58f2c3a31210b66e7addd40131cb"/>
@@ -57,11 +57,11 @@
         <sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope>
         <sys_update_name>sys_pd_process_definition_ccad58f2c3a31210b66e7addd40131cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-09 15:41:03</sys_updated_on>
+        <sys_updated_on>2025-02-09 15:59:35</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
     <sys_translated_text action="delete_multiple" query="documentkey=ccad58f2c3a31210b66e7addd40131cb"/>
-    <sys_pd_lane action="delete_multiple" query="process_definition=ccad58f2c3a31210b66e7addd40131cb^sys_idNOT IN3d7a69f03d7a75803d7a48c03d7afb20"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=ccad58f2c3a31210b66e7addd40131cb^sys_idNOT IN3d7a69f03d7a75803d7a48c03d7afb20,2a480f02a474b02a40e202a41e102a44"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition_to_run/>
@@ -84,6 +84,42 @@
     </sys_pd_lane>
     <sys_translated_text action="delete_multiple" query="documentkey=3d7a69f03d7a75803d7a48c03d7afb20"/>
     <sys_variable_value action="delete_multiple" query="document_key=3d7a69f03d7a75803d7a48c03d7afb20"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Ticket Resolution</label>
+        <lane_condition/>
+        <name>new_stage_1</name>
+        <order>2</order>
+        <process_definition display_value="Connect Services Cases">ccad58f2c3a31210b66e7addd40131cb</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 15:58:52</sys_created_on>
+        <sys_id>2a480f02a474b02a40e202a41e102a44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 15:59:34</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=2a480f02a474b02a40e202a41e102a44"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2a480f02a474b02a40e202a41e102a44"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>2a480f02a474b02a40e202a41e102a44</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-09 15:58:52</sys_created_on>
+        <sys_id>a7e3a8bac3271210b66e7addd4013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-09 15:58:52</sys_updated_on>
+        <value>3d7a69f03d7a75803d7a48c03d7afb20</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
     <sys_pd_activity action="delete_multiple" query="process_definition=ccad58f2c3a31210b66e7addd40131cb^sys_idNOT IN7a840607a855d07a858907a8c1107a86,5f017d05f013605f06be05f06e005f0b"/>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -107,9 +143,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-09 15:39:59</sys_created_on>
         <sys_id>7a840607a855d07a858907a8c1107a86</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-09 15:41:01</sys_updated_on>
+        <sys_updated_on>2025-02-09 15:58:52</sys_updated_on>
         <type_vals/>
         <type_vals/>
         <variant/>
@@ -1052,9 +1088,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-09 15:34:51</sys_created_on>
         <sys_id>5f017d05f013605f06be05f06e005f0b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-09 15:40:30</sys_updated_on>
+        <sys_updated_on>2025-02-09 15:58:52</sys_updated_on>
         <type_vals/>
         <type_vals/>
         <variant/>
