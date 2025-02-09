@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Knowledge Category Picker Modal Default">63cad4fec3631210b66e7addd401311e</macroponent>
+        <name>Expand Knowledge Category</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    api.setState('loadingItems', event.payload.path);
+    api.setState('route', event.payload.path);
+    api.setState('clickedItemId', event.payload.item.id);
+}]]></script>
+        <script_api_version>1.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-02-09 15:19:00</sys_created_on>
+        <sys_id>e3cad4fec3631210b66e7addd4013153</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Expand Knowledge Category</sys_name>
+        <sys_package display_value="demoCSM" source="x_1131061_democsm">a4659832c3231210b66e7addd40131e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope>
+        <sys_update_name>sys_ux_client_script_e3cad4fec3631210b66e7addd4013153</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-09 15:19:00</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
