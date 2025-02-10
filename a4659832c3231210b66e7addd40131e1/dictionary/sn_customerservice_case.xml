@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true" audit="true" db_object_id="e082b33ac3031210b66e7addd4013101" extends="task" label="Case" max_length="40" name="sn_customerservice_case" text_index="true" type="collection">
+        <element label="VIN" max_length="50" name="x_1131061_democsm_vin" type="string"/>
+    </element>
+</database>
