@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_security_scheme">
+    <sys_api_security_scheme action="DELETE">
+        <allow_external_access>false</allow_external_access>
+        <api_collection display_value="Rest trigger for flow id=3f979c7ac3631210b66e7addd40131db - v1">847854fac3631210b66e7addd40131d8</api_collection>
+        <enforce_acl/>
+        <requires_authentication>true</requires_authentication>
+        <sys_class_name>sys_api_security_scheme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 13:00:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>51b4098bc3ef5210b66e7addd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoCSM" source="x_1131061_democsm">a4659832c3231210b66e7addd40131e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope>
+        <sys_update_name>sys_api_security_scheme_51b4098bc3ef5210b66e7addd40131fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 13:00:33</sys_updated_on>
+    </sys_api_security_scheme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="demoCSM">a4659832c3231210b66e7addd40131e1</application>
+        <file_path/>
+        <instance_id>61c9d79e1b0946d465324089bd4bcb4f</instance_id>
+        <instance_name>dev248564</instance_name>
+        <name>sys_api_security_scheme_51b4098bc3ef5210b66e7addd40131fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_security_scheme"><sys_api_security_scheme action="INSERT_OR_UPDATE"><allow_external_access>false</allow_external_access><api_collection display_value="Rest trigger for flow id=3f979c7ac3631210b66e7addd40131db - v1">847854fac3631210b66e7addd40131d8</api_collection><enforce_acl/><requires_authentication>true</requires_authentication><sys_class_name>sys_api_security_scheme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-10 13:00:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>51b4098bc3ef5210b66e7addd40131fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="demoCSM" source="x_1131061_democsm">a4659832c3231210b66e7addd40131e1</sys_package><sys_policy/><sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope><sys_update_name>sys_api_security_scheme_51b4098bc3ef5210b66e7addd40131fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-10 13:00:33</sys_updated_on></sys_api_security_scheme></record_update>]]></payload>
+        <payload_hash>1028926134</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>47f6d83ac3631210b66e7addd4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 13:00:33</sys_created_on>
+        <sys_id>59b4498bc3ef5210b66e7addd4013100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194eff27bb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 13:00:33</sys_updated_on>
+        <type>API Security Scheme</type>
+        <update_guid>5db4098b07ef5210fc829883d75d7fff</update_guid>
+        <update_guid_history>5db4098b07ef5210fc829883d75d7fff:1028926134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 16:13:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_security_scheme">sys_api_security_scheme</sys_db_object>
+        <sys_id>11d762bb0a4147e08724d16123b86240</sys_id>
+        <sys_metadata>51b4098bc3ef5210b66e7addd40131fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="demoCSM" source="x_1131061_democsm">a4659832c3231210b66e7addd40131e1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope>
+        <sys_scope_delete display_value="">6b3b6d61739a4161a8559423486fef91</sys_scope_delete>
+        <sys_update_name>sys_api_security_scheme_51b4098bc3ef5210b66e7addd40131fe</sys_update_name>
+        <sys_update_version display_value="sys_api_security_scheme_51b4098bc3ef5210b66e7addd40131fe">59b4498bc3ef5210b66e7addd4013100</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 16:13:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

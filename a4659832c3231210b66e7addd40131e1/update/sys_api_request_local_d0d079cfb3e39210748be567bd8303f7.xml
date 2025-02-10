@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_request_local">
+    <sys_api_request_local action="INSERT_OR_UPDATE">
+        <api_collection/>
+        <api_operation display_value="POST CreateCase">cc7854fac3631210b66e7addd40131dc</api_operation>
+        <description/>
+        <name>Generated Request for 3f979c7ac3631210b66e7addd40131db</name>
+        <required>false</required>
+        <sys_class_name>sys_api_request_local</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 16:13:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0d079cfb3e39210748be567bd8303f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cc7854fac3631210b66e7addd40131dc</sys_name>
+        <sys_package display_value="demoCSM" source="x_1131061_democsm">a4659832c3231210b66e7addd40131e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoCSM">a4659832c3231210b66e7addd40131e1</sys_scope>
+        <sys_update_name>sys_api_request_local_d0d079cfb3e39210748be567bd8303f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 16:13:17</sys_updated_on>
+    </sys_api_request_local>
+</record_update>
